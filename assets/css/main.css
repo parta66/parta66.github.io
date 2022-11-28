@@ -68,6 +68,9 @@ padding: 0;
 body{
 background: #ff4700;
 text-align: center;
+text-align: left;
+text-align: right;
+text-align: justify;
 }
  
 section{
@@ -2750,7 +2753,7 @@ input, select, textarea {
 
 		.tiles article {
 			-moz-align-items: center;
-			-webkit-align-items: center;
+			-webkit-align-items: justify;
 			-ms-align-items: center;
 			align-items: center;
 			display: -moz-flex;
